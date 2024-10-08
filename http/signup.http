@@ -1,0 +1,24 @@
+###
+# Sign Up User
+POST http://127.0.0.1:8000/signup
+Content-Type: application/json
+
+{
+    "email": "user@example.com",
+    "password": "123456"
+}
+
+###
+# Log In User
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+
+{
+    "email": "user@example.com",
+    "password": "123456d"
+}
+
+###
+# Use Authorization Token
+GET http://127.0.0.1:8000/authenticated
+Authorization: Basic user@example.com:123456
