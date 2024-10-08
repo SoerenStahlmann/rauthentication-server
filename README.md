@@ -16,7 +16,7 @@ I created this repository as a learning project to explore building an authentic
 ## Article on Medium
 
 To learn more about how this authentication server was built, check out the accompanying article on Medium:
-[Building an Authentication Server in Rust with Rocket](#)
+[Building an Authentication Server in Rust: Learning Rust by Example](https://medium.com/@stahlmann.soeren/building-an-authentication-server-in-rust-learning-rust-by-example-2a6489c159e9)
 
 ---
 
