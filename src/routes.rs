@@ -31,10 +31,7 @@ pub async fn signup(
         )
     })?;
 
-    Ok(format!(
-        "Signed up user: {}\nWith password: {}",
-        new_user.email, new_user.password
-    ))
+    Ok(format!("Signed up user: {}", new_user.email))
 }
 
 #[post("/login", data = "<user>")]
